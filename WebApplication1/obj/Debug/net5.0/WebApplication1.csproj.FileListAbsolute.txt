@@ -118,3 +118,5 @@ C:\MYDATA\STUDY-WORK\MVCCORE-DEMO\WebApplication1\WebApplication1\obj\Debug\net5
 C:\MYDATA\STUDY-WORK\MVCCORE-DEMO\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Views\Shared\_Registration.cshtml.g.cs
 C:\MYDATA\STUDY-WORK\MVCCORE-DEMO\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Views\Registration\Index.cshtml.g.cs
 C:\MYDATA\STUDY-WORK\MVCCORE-DEMO\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Views\Registration\Login.cshtml.g.cs
+C:\MYDATA\STUDY-WORK\MVCCORE-DEMO\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Views\Category\Index.cshtml.g.cs
+C:\MYDATA\STUDY-WORK\MVCCORE-DEMO\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Views\Category\subCategory.cshtml.g.cs
