@@ -5,9 +5,14 @@
 }
 
 <h3>Category Index</h3>
+<h4>
+    @ViewData["var1"]
+</h4>
 <br/>
 <br/>
 <partial name="subCategory" />
 <br/>
 <partial name="../Registration/Login" />
+<br/>
+@await Html.PartialAsync("subCategory");
 

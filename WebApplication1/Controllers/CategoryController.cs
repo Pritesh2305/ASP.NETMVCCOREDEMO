@@ -10,6 +10,7 @@ namespace WebApplication1.Controllers
     {
         public IActionResult Index()
         {
+            ViewData["var1"] = "pritesh";
             return View(); 
         }
     }
