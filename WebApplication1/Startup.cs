@@ -46,7 +46,7 @@ namespace WebApplication1
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Category}/{action=Index}/{id?}");
+                    pattern: "{controller=User}/{action=Index}/{id?}");
                 endpoints.MapControllerRoute(
                   name: "default1",
                   pattern: "{controller=Registration}/{action=Index}/{id?}/{name?}");

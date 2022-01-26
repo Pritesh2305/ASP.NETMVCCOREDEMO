@@ -26,8 +26,15 @@ using WebApplication1.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\MYDATA\STUDY-WORK\MVCCORE-DEMO\WebApplication1\WebApplication1\Views\_ViewImports.cshtml"
+using WebApplication1.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"729efaa87342638aecfe1a972ce9f9f8dff55b4c", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c1653c4935ed204a0ba7941e3c8dbbf94c531f33", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

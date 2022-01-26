@@ -85,7 +85,6 @@ C:\MYDATA\STUDY-WORK\MVCCORE-DEMO\WebApplication1\WebApplication1\bin\Debug\net5
 C:\MYDATA\STUDY-WORK\MVCCORE-DEMO\WebApplication1\WebApplication1\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\MYDATA\STUDY-WORK\MVCCORE-DEMO\WebApplication1\WebApplication1\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\MYDATA\STUDY-WORK\MVCCORE-DEMO\WebApplication1\WebApplication1\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
-C:\MYDATA\STUDY-WORK\MVCCORE-DEMO\WebApplication1\WebApplication1\obj\Debug\net5.0\WebApplication1.csproj.AssemblyReference.cache
 C:\MYDATA\STUDY-WORK\MVCCORE-DEMO\WebApplication1\WebApplication1\obj\Debug\net5.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
 C:\MYDATA\STUDY-WORK\MVCCORE-DEMO\WebApplication1\WebApplication1\obj\Debug\net5.0\WebApplication1.AssemblyInfoInputs.cache
 C:\MYDATA\STUDY-WORK\MVCCORE-DEMO\WebApplication1\WebApplication1\obj\Debug\net5.0\WebApplication1.AssemblyInfo.cs
@@ -121,3 +120,4 @@ C:\MYDATA\STUDY-WORK\MVCCORE-DEMO\WebApplication1\WebApplication1\obj\Debug\net5
 C:\MYDATA\STUDY-WORK\MVCCORE-DEMO\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Views\Category\Index.cshtml.g.cs
 C:\MYDATA\STUDY-WORK\MVCCORE-DEMO\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Views\Category\subCategory.cshtml.g.cs
 C:\MYDATA\STUDY-WORK\MVCCORE-DEMO\WebApplication1\WebApplication1\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
+C:\MYDATA\STUDY-WORK\MVCCORE-DEMO\WebApplication1\WebApplication1\obj\Debug\net5.0\WebApplication1.csproj.AssemblyReference.cache

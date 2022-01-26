@@ -1,9 +1,87 @@
-﻿
+﻿@model User
 @{
     ViewData["Title"] = "Index";
+    //Layout = "~/Views/Shared/_Registration.cshtml";
 }
-<br/>
-User Index Page
-<br/>
-<h1>Index</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <form asp-action="Index" asp-controller="User" method="post">
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-8">
+                        <h4 class="alert-danger align-content-center" style="text-align:center">USER REGISTRATION</h4>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-4">Name</div>
+                    <div class="col-8">
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-4">DOB</div>
+                    <div class="col-8">
+                        <input asp-for="DOB" type="date" class="form-control" />
+                        <span asp-validation-for="DOB" class="text-danger"></span>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-4">Mobile No</div>
+                    <div class="col-8">
+                        <input asp-for="MobileNo" class="form-control" />
+                        <span asp-validation-for="MobileNo" class="text-danger"></span>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-4">E-Mail</div>
+                    <div class="col-8">
+                        <input asp-for="EmailId" class="form-control" />
+                        <span asp-validation-for="EmailId" class="text-danger"></span>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-4">Address</div>
+                    <div class="col-8">
+                        <input asp-for="Address" class="form-control" />
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-4">City</div>
+                    <div class="col-8">
+                        <input asp-for="City" class="form-control" />
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-8">
+                        <input type="submit" value="Submit" class="form-control alert-primary btn-dark" />
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-8">
+                        <h5 class="alert-success">@ViewBag.sms</h5>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+        <div class="col-2"></div>
+
+    </div>
+</div>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
 
