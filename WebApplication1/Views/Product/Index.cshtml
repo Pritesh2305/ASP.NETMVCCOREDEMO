@@ -1,0 +1,41 @@
+﻿@using WebApplication1.ViewModels
+@model Studentproductvm
+@{
+
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Registration.cshtml";
+}
+
+<h1>Index</h1>
+
+@{
+
+    Product obj = ViewBag.prod;
+    IEnumerable<Product> objlist = ViewBag.prodlist;
+
+}
+@*<div>
+        code : <b>@Model.code</b> <br />
+        name : @Model.name <br />
+        price : @Model.price <br />
+    </div>*@
+<h3>Product List </h3>
+
+@foreach (var item in Model.Products)
+{
+    <div>
+        code :  @item.code <br />
+        name :  @item.name <br />
+        price :  @item.price <br />
+    </div>
+}
+
+<h3>Student List </h3>
+@foreach (var item in Model.Students)
+{
+    <div>
+        code :  @item.code <br />
+        name :  @item.name <br />
+        email :  @item.email <br />
+    </div>
+}
