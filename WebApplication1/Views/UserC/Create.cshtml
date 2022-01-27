@@ -1,0 +1,43 @@
+﻿@model User
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>CreateNew User</h1>
+
+<form asp-action="Create" asp-controller="">
+    <br />
+    <input asp-for="Id"  type="hidden"/>    
+    <br />
+    <input asp-for="Name" />
+    <span asp-validation-for="Name"></span>
+    <br />
+    <input asp-for="DOB" type="date" />
+    <span asp-validation-for="DOB"></span>
+    <br />
+    <input asp-for="MobileNo" />
+    <span asp-validation-for="MobileNo"></span>
+    <br />
+    <input asp-for="EmailId" />
+    <span asp-validation-for="EmailId"></span>
+    <br />
+    <input asp-for="Address" />
+    <span asp-validation-for="Address"></span>
+    <br />
+    <input asp-for="City" />
+    <span asp-validation-for="City"></span>
+    <br />
+    <input type="submit" value="Create User" class="btn-info" />
+    <input type="button" value="Click" onclick="myfunction()" />
+</form>
+
+<script>
+    function myfunction() {
+        alert("Hi");
+    }
+    
+</script>
+
+
+
